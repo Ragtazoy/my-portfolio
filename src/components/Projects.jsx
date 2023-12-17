@@ -11,6 +11,23 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { AiFillGithub, AiOutlineEye } from "react-icons/ai";
 
+import ktb1 from "../../public/images/project/ktb1.png";
+import ktb2 from "../../public/images/project/ktb2.png";
+import ktb3 from "../../public/images/project/ktb3.png";
+import ktb4 from "../../public/images/project/ktb4.png";
+import ktb5 from "../../public/images/project/ktb5.png";
+import ktb6 from "../../public/images/project/ktb6.png";
+import ktb7 from "../../public/images/project/ktb7.png";
+import ktb8 from "../../public/images/project/ktb8.png";
+
+import cib1 from "../../public/images/project/cib1.png";
+import cib2 from "../../public/images/project/cib2.png";
+import cib3 from "../../public/images/project/cib3.png";
+import cib4 from "../../public/images/project/cib4.png";
+import cib5 from "../../public/images/project/cib5.png";
+import cib6 from "../../public/images/project/cib6.png";
+import cib7 from "../../public/images/project/cib7.png";
+
 import eawp1 from "../../public/images/project/eawp1.png";
 import eawp2 from "../../public/images/project/eawp2.png";
 import eawp3 from "../../public/images/project/eawp3.png";
@@ -162,6 +179,61 @@ const Projects = () => {
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
         >
+          <SwiperSlide>
+            <FeaturedProject
+              img={[
+                ktb1.src,
+                ktb2.src,
+                ktb3.src,
+                ktb4.src,
+                ktb5.src,
+                ktb6.src,
+                ktb7.src,
+                ktb8.src,
+              ]}
+              title={"Chat Application for ONE Krungthai"}
+              summary={
+                "Responsible for developing a chat web application for the ONE Krungthai platform, the development will be executed using Next.js, with integration facilitated through the Amity SDK, and deployed the application on AWS Amplify. The primary objective is to enhance the application's functionality by introducing a robust and user-friendly chat feature to improve internal communication."
+              }
+              type={"Web Application"}
+              tech={[
+                "Next.js",
+                "Ant Design",
+                "Tailwind CSS",
+                "Amity SDK",
+                "AWS Amplify",
+                "React Virtuoso",
+              ]}
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <FeaturedProject
+              img={[
+                cib1.src,
+                cib2.src,
+                cib3.src,
+                cib4.src,
+                cib5.src,
+                cib6.src,
+                cib7.src,
+              ]}
+              title={"Central Police Investigation Data Management System"}
+              summary={
+                "Collaborate with project managers and developers to develop a web application for the Royal Thai Police to manage internal organizational data. Includes features such as task management, handling petition data, and presenting a dashboard of reports."
+              }
+              type={"Web Application"}
+              tech={[
+                "Next.js",
+                "MUI",
+                "React Hook Form",
+                "Yup",
+                "Full Calendar",
+                "Chart.js",
+              ]}
+            />
+          </SwiperSlide>
+
           <SwiperSlide>
             <FeaturedProject
               img={[

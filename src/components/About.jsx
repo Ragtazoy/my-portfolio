@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Skill from "./Skill";
+import antDesign from "../../public/images/skill/ant-design.png";
+import awsAmplify from "../../public/images/skill/aws-amplify.png";
 
 const About = () => {
   const ref = useRef(null);
@@ -50,8 +52,8 @@ const About = () => {
             />
             <div className="font-medium indent-10 space-y-4">
               <p className="text-justify">
-                I am a new Computer Science graduate who is always eager to
-                coding and my enthusiasm for learning new technologies and
+                I am a Computer Science graduate who is always eager to coding
+                and my enthusiasm for learning new technologies and
                 problem-solving. I am always eager to expand my knowledge and
                 take on new challenges.
               </p>
@@ -59,7 +61,7 @@ const About = () => {
                 My expertise lies in optimizing code for maximum efficiency,
                 both on the frontend and backend of applications. I have honed
                 my skills in programming languages such as Python, Java, and
-                JavaScript, and I have experience working with frameworks like
+                Typescript, and I have experience working with frameworks like
                 React, Flutter and Node.js. I am confident in my ability to
                 develop software solutions that meet the needs of users.
               </p>
@@ -118,27 +120,67 @@ const About = () => {
               style={{ scaleY: scaleY }}
               className="absolute left-1 top-0 w-[2px] h-full rounded-sm bg-dark origin-top"
             />
-            <span className="flex justify-between">
-              <h3 className="font-bold text-lg">
-                Software Developer Trainee{" "}
-                <a
-                  href="https://www.softsquaregroup.com"
-                  target="_blank"
-                  className="text-primaryDark"
-                >
-                  @Soft Square
-                </a>
-              </h3>
-              <span className="font-medium text-dark/75">2022</span>
-            </span>
-            <p className="font-medium text-justify">
-              As a member of an Oracle team, I had the opportunity to contribute
-              to the development of an electronic document system that enabled
-              users to create and sign quotations and download excel reports
-              within the organization. I was responsible for utilizing in Oracle
-              Application Express (APEX) and PL/SQL, along with some CSS and
-              JavaScript to develop the system
-            </p>
+            <div className="mb-4">
+              <span className="flex justify-between">
+                <h3 className="font-bold text-lg">
+                  Chatbot Developer{" "}
+                  <a
+                    href="https://www.amitysolutions.com/"
+                    target="_blank"
+                    className="text-primaryDark"
+                  >
+                    @Amity Solutions
+                  </a>
+                </h3>
+                <span className="font-medium text-dark/75">
+                  June 2023 - Dec 203
+                </span>
+              </span>
+              <ul class="list-disc font-medium text-justify ml-6">
+                <li>
+                  Collaborate with project managers and developers to develop a
+                  web application for the Royal Thai Police to manage internal
+                  organizational data. Includes features such as task
+                  management, handling petition data, and presenting a dashboard
+                  of reports.
+                </li>
+                <li>
+                  Responsible for developing a chat web application for the ONE
+                  Krungthai platform, the development will be executed using
+                  Next.js, with integration facilitated through the Amity SDK,
+                  and deployed the application on AWS Amplify. The primary
+                  objective is to enhance the application's functionality by
+                  introducing a robust and user-friendly chat feature to improve
+                  internal communication.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span className="flex justify-between">
+                <h3 className="font-bold text-lg">
+                  Software Developer Trainee{" "}
+                  <a
+                    href="https://www.softsquaregroup.com"
+                    target="_blank"
+                    className="text-primaryDark"
+                  >
+                    @Soft Square
+                  </a>
+                </h3>
+                <span className="font-medium text-dark/75">2022</span>
+              </span>
+              <ul class="list-disc font-medium text-justify ml-6">
+                <li>
+                  As a member of an Oracle team, I had the opportunity to
+                  contribute to the development of an electronic document system
+                  that enabled users to create and sign quotations and download
+                  excel reports within the organization. I was responsible for
+                  utilizing in Oracle Application Express (APEX) and PL/SQL,
+                  along with some CSS and JavaScript to develop the system
+                </li>
+              </ul>
+            </div>
           </div>
         </motion.div>
         <motion.div
@@ -192,6 +234,11 @@ const About = () => {
               src={"https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"}
             />
             <Skill
+              title={"Figma"}
+              link={"https://www.figma.com/"}
+              src={"https://www.vectorlogo.zone/logos/figma/figma-icon.svg"}
+            />
+            <Skill
               title={"Framer"}
               link={"https://www.framer.com/"}
               src={"https://www.vectorlogo.zone/logos/framer/framer-icon.svg"}
@@ -204,11 +251,21 @@ const About = () => {
               }
             />
             <Skill
+              title={"Ant Design"}
+              link={"https://ant.design/"}
+              src={antDesign}
+            />
+            <Skill
               title={"Bootstrap"}
               link={"https://getbootstrap.com/"}
               src={
                 "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
               }
+            />
+            <Skill
+              title={"AWS Amplify"}
+              link={"https://aws.amazon.com/th/amplify/"}
+              src={awsAmplify}
             />
             <Skill
               title={"Firebase"}

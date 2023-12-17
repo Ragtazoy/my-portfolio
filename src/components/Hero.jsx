@@ -32,7 +32,7 @@ const Hero = () => {
           >
             Hi, my name is New
           </motion.h2>
-          <span className="flex justify-center items-center font-bold text-3xl md:text-4xl lg:md:text-6xl">
+          <span className="flex justify-center items-center sm:flex-col lg:flex-row font-bold text-3xl md:text-4xl lg:md:text-6xl">
             <motion.h1
               initial={{
                 opacity: 0,
@@ -56,22 +56,14 @@ const Hero = () => {
               Suwanprasert
             </motion.h1>
           </span>
-          <div className="text-xl md:text-2xl">
+          <div className="text-xl md:text-3xl">
             <motion.p
               initial={{ opacity: 0, scale: 0.8, y: 120 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
             >
-              Web Developer / Mobile Developer
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, scale: 0.8, y: 100 }}
-              whileInView={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{ duration: 1.4 }}
-              viewport={{ once: true }}
-            >
-              New Graduate
+              Software Engineer
             </motion.p>
           </div>
         </div>
