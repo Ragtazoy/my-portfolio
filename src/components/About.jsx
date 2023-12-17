@@ -149,7 +149,7 @@ const About = () => {
                   Krungthai platform, the development will be executed using
                   Next.js, with integration facilitated through the Amity SDK,
                   and deployed the application on AWS Amplify. The primary
-                  objective is to enhance the application's functionality by
+                  objective is to enhance the application&apos;s functionality by
                   introducing a robust and user-friendly chat feature to improve
                   internal communication.
                 </li>
