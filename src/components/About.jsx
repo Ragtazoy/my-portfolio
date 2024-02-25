@@ -149,9 +149,9 @@ const About = () => {
                   Krungthai platform, the development will be executed using
                   Next.js, with integration facilitated through the Amity SDK,
                   and deployed the application on AWS Amplify. The primary
-                  objective is to enhance the application&apos;s functionality by
-                  introducing a robust and user-friendly chat feature to improve
-                  internal communication.
+                  objective is to enhance the application&apos;s functionality
+                  by introducing a robust and user-friendly chat feature to
+                  improve internal communication.
                 </li>
               </ul>
             </div>
@@ -205,13 +205,6 @@ const About = () => {
               }
             />
             <Skill
-              title={"Flutter"}
-              link={"https://flutter.dev/"}
-              src={
-                "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
-              }
-            />
-            <Skill
               title={"Node.js"}
               link={"https://nodejs.org/"}
               src={"https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"}
@@ -224,14 +217,41 @@ const About = () => {
               }
             />
             <Skill
+              title={"Sequelize"}
+              link={"https://sequelize.org/"}
+              src={
+                "https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg"
+              }
+            />
+            <Skill
+              title={"Go"}
+              link={"https://go.dev/"}
+              src={"https://www.vectorlogo.zone/logos/golang/golang-ar21.svg"}
+            />
+            <Skill
+              title={"Go Fiber"}
+              link={"https://docs.gofiber.io/"}
+              src={"https://docs.gofiber.io/img/logo.svg"}
+            />
+            <Skill
+              title={"GORM"}
+              link={"https://gorm.io/index.html"}
+              src={"https://gorm.io/gorm.svg"}
+            />
+              <Skill
+                title={"MySQL"}
+                link={"https://www.mysql.com/"}
+                src={"https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"}
+              />
+              <Skill
+                title={"MongoDB"}
+                link={"https://www.mongodb.com/"}
+                src={"https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"}
+              />
+            <Skill
               title={"Git"}
               link={"https://git-scm.com/"}
               src={"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"}
-            />
-            <Skill
-              title={"MySQL"}
-              link={"https://www.mysql.com/"}
-              src={"https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"}
             />
             <Skill
               title={"Figma"}
